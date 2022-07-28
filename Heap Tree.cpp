@@ -116,16 +116,6 @@ bool solve()
         cin >> a;
         heap.add(a);
     }
-
-    heap.print();
-
-    heap.add(2);
-
-    heap.print();
-
-    heap.remove(3);
-
-    heap.print();
  
     return 0;
 }
